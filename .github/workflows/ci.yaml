@@ -1,0 +1,13 @@
+name: ci
+
+
+on:
+  workflow_dispatch
+
+jobs:
+  my_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Say something
+      run: echo 'i am running' 
+
